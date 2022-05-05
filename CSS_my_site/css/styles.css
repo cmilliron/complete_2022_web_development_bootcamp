@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color:#e4f9f5;
+}
+
+h1 {
+    font-size: 562%;
+    margin-top: 50px;
+    color: #66BFBF
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #66BFBF
+}
+
+h3 {
+    color: #11999E
+}
+
+.top-container {
+
+   position: relative;
+   padding-top: 100px;
+    
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 100px
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.mountain {
+
+}
+
+.mid-box {
+    background-color: red;
+
+    border: 20px;
+    border-color: black;
+    border-style: solid;
+    height: 160px;
+    margin-left: 200px;
+    width: 160px;
+}
+
+.bottom-box {
+    background-color: green;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    height: 180px;
+    margin-left: 400px;
+    width: 180px;
+}
+
+.footer-link {
+    color: #11999E
+}
