@@ -8,16 +8,21 @@ h1 {
     line-height: 1.5;  
     font-weight: 900;}
 
+h2 {
+    font-family: 'Montserrat-black';  
+    font-size: 3rem;  
+    line-height: 1.5;  
+}
 
 #title {
     background-color: #ff4c68;
     color: white;
+    text-align: center;
 }
 
 .container-fluid {
-    padding: 3% 15%
+    padding: 3% 15% 7%;
 }
-
 
 /*  Nav Bar */
 
@@ -41,16 +46,90 @@ h1 {
     font-family: "montserrat-light";
 }
 
-/*  Download Buttons */
+/*  Title Area */
 
 .download-button {
     margin:5% 5%;
 
 }
 
-/*  Title Image */
-
 .title-image {
     width: 60%;
     transform: rotate(18deg);
+   
+/*    position: absolute;
+    right: 30%; */
+
+}
+
+/*  Info button Row */
+
+#features {
+    position: relative;
+    padding: 3% 15%;
+    background-color: #fff;
+}
+
+.info-container{
+    padding: 5% 3%
+   
+}
+
+.info-icons {
+    color: #ef8172;
+    padding-bottom: 5%;
+
+}
+
+.info-titles {
+    font-family: "Montserrat-black";
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.info-icons:hover {
+    color: #ff4c68;
+    transform: scale(1.2);
+}
+
+/*  Info button Row */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 10%;
+    border: 2px black;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*  Press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*  Press section */
+
+#pricing {
+    padding: 7% 10%; 
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
 }
